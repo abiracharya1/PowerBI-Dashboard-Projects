@@ -1,101 +1,124 @@
-# HR-Analytics-Dashboard
-End-to-end HR analytics project covering data cleaning, SQL analysis and Power BI dashboards to track attrition, headcount and workforce performance metrics.
+# Power BI Dashboard Projects
 
+**Business Intelligence dashboards built with Power BI, DAX, and Power Query — covering sales analytics, profitability, and regional performance.**
 
-Automobile Sales Analytics Dashboard
-Project Overview
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/dax/)
+[![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://microsoft.com/excel)
 
-This project analyzes automobile sales data to identify sales trends, profitability patterns, and performance across vehicle categories and regions. The dashboard helps stakeholders track KPIs, compare performance against targets, and identify opportunities to improve revenue and margins.
+---
 
-Business Problem
+## 📁 Projects
 
-Automobile sales data was available but lacked structured analysis to answer key business questions such as:
+### 🚗 Project 1 — Automobile Sales Dashboard
 
-Which vehicle types generate the most revenue?
-Which regions contribute the highest sales?
-Are high sales translating into high profit?
-How does performance compare against targets?
-What trends exist across months and years?
+**Files:** `Automobile_Project.pbix` · `Automobile_Project_Dashboard_Datasets.xlsx` · `Automobile Dashboard Analysis.pptx`
 
-The objective was to convert raw sales data into actionable insights through an interactive Power BI dashboard.
+#### Business Problem
+Automobile sales data was available but lacked structured analysis to answer key questions:
+- Which vehicle types generate the most revenue and profit?
+- Which regions contribute the highest sales?
+- How does performance compare against targets?
+- Are high sales translating into high profit margins?
 
-Dataset
+#### Dataset
+Invoice Date, Vehicle Make & Model, Vehicle Type, Country, Sale Price, Cost Price, Discounts, and derived metrics (Profit, Margin %).
 
-The dataset includes:
+#### KPIs Built (DAX)
+| Measure | Description |
+|---------|-------------|
+| Total Sales | Sum of all sale prices |
+| Total Profit | Revenue minus cost |
+| Profit Margin % | Profit as % of sales |
+| Sales Variance | Actual vs target gap |
+| Sales Target | Benchmark comparisons |
 
-Invoice Date (Year, Month)
-Vehicle Make and Model
-Vehicle Type
-Country
-Sale Price and Cost Price
-Discounts and additional costs
-Derived metrics like profit and margin
-Tools Used
-Power BI – Dashboard development and visualization
-Power Query – Data cleaning and transformation
-DAX – KPI measures and calculations
-Excel – Data source
-Process
+#### Dashboard Features
+- KPI cards for sales, profit, and margin
+- Monthly and yearly sales trend analysis
+- Sales by vehicle type comparison
+- Country-wise revenue distribution
+- Sales vs profit relationship chart
+- Performance vs target tracking with slicers
 
-The project was completed in the following stages:
+#### Key Insights
+- Sales contribution varies significantly across vehicle categories
+- Higher sales volume does not always result in higher profit margin
+- Certain countries generate a disproportionate share of revenue
+- Monthly trends reveal demand cycles useful for forecasting
 
-Data Preparation
+---
 
-Cleaned dataset using Power Query
-Removed duplicate and irrelevant fields
-Created calculated columns such as Total Cost and Profit
+### 📊 Project 2 — Sales Analysis Dashboard
 
-Data Modeling
+**Files:** `Project-1(Sales Analysis Dashboard_Problem_Statements) 2.pbix` · `SALES ANALYSIS DASHBOARD.pptx`
 
-Created relationships and measures
-Built KPIs:
-Total Sales
-Total Profit
-Profit Margin %
-Sales Target
-Sales Variance
+#### Business Problem
+Business stakeholders needed a unified view of sales performance across customers, products, and regions — with actionable discount and profitability analysis.
 
-Visualization Development
-Created interactive visuals including:
+#### Analysis Covered
+- Sales, profit, quantity, and discount trend analysis
+- Top customers by revenue contribution
+- Revenue-driving products identification
+- Discount impact on profitability
+- Regional performance comparison
+- Logistics and distribution trend analysis
 
-KPI cards for sales and profit
-Monthly sales trend analysis
-Sales by vehicle type comparison
-Country wise sales distribution
-Sales vs profit relationship analysis
-Performance vs target tracking
+#### Dashboard Features
+- Interactive filters by region, product category, and time period
+- Customer ranking by revenue and profit
+- Discount sensitivity analysis
+- Product-level margin breakdown
 
-Dashboard Design
+#### Key Insights
+- High discount rates negatively correlate with profitability in key segments
+- A small group of customers drives a disproportionate share of revenue
+- Regional performance gaps point to untapped growth opportunities
 
-Added slicers for dynamic filtering
-Designed layout for business storytelling
-Focused on decision-driven visuals rather than decorative charts
-Key Insights
-Sales contribution varies significantly across vehicle categories
-Certain countries generate a large share of revenue
-Higher sales do not always result in higher profit
-Some vehicle types show strong sales but weak margins
-Monthly trends show fluctuations indicating demand cycles
-Target tracking highlights performance gaps
-Business Recommendations
-Focus on high margin vehicle segments
-Review pricing strategy for low margin categories
-Strengthen presence in high performing regions
-Improve cost control for better profitability
-Use KPI dashboards for ongoing performance monitoring
-Align sales targets with historical trends
-Project Files
+---
 
-Repository contains:
+## 🛠️ Tools & Techniques
 
-Power BI Dashboard file
-Dataset
-Project documentation
-DAX calculations
-Dashboard Preview
+| Area | Details |
+|------|---------|
+| **Visualization** | Power BI Desktop |
+| **Data Transformation** | Power Query (M language) |
+| **Calculations** | DAX — measures, calculated columns, KPIs |
+| **Data Source** | Excel (.xlsx) |
+| **Presentation** | PowerPoint for stakeholder storytelling |
 
-Author
+**DAX concepts used:** CALCULATE, SUMX, DIVIDE, RANKX, time intelligence functions, conditional measures
 
-Abir Acharya
-Business Analyst | People Analytics | HR Analytics
-LinkedIn: (https://www.linkedin.com/in/abir-acharya/)
+---
+
+## 📂 Repository Structure
+
+```
+PowerBI-Dashboard-Projects/
+│
+├── Automobile_Project.pbix                          # Automobile Sales Power BI file
+├── Automobile_Project_Dashboard_Datasets.xlsx       # Source dataset
+├── Automobile Dashboard Analysis.pptx               # Stakeholder presentation
+│
+├── Project-1(Sales Analysis Dashboard...).pbix      # Sales Analysis Power BI file
+├── SALES ANALYSIS DASHBOARD.pptx                    # Stakeholder presentation
+│
+└── README.md
+```
+
+---
+
+## 💡 Skills Demonstrated
+
+`Power BI` `DAX` `Power Query` `Data Modelling` `KPI Development` `Sales Analytics` `Profitability Analysis` `Regional Performance` `Dashboard Design` `Business Storytelling`
+
+---
+
+## 👤 Author
+
+**Abir Acharya**
+People Analytics Lead | HR Data Analyst | Business Analyst
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abir-acharya/)
+[![GitHub](https://img.shields.io/badge/GitHub-abiracharya1-181717?style=flat&logo=github)](https://github.com/abiracharya1)
+[![Email](https://img.shields.io/badge/Email-abiracharya1%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:abiracharya1@gmail.com)
